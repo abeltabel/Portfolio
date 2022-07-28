@@ -1,0 +1,47 @@
+/*Global Styling*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* End of Global Styling */
+
+header {
+    padding: 20px 35px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    
+    top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color:blueviolet;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+header a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+header nav {
+    margin: 8px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
