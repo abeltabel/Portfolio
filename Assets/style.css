@@ -7,7 +7,7 @@
 /* End of Global Styling */
 
 header {
-    padding: 20px 35px;
+    padding: 21px 36px;
     background-color: lightblue;
     display: flex;
     justify-content: space-between;
@@ -17,7 +17,7 @@ header {
     top: 0;
     background-size: cover;
     background-attachment: fixed;
-    background-position: 80%;
+    background-position: 81%;
     z-index: 9999;
 }
 
@@ -25,7 +25,7 @@ header {
 header h1 {
     font-weight: bold;
     margin: 0;
-    font-size: 36px;
+    font-size: 37px;
     color:blueviolet;
     text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
@@ -36,7 +36,7 @@ header a {
 }
 
 header nav {
-    margin: 8px 0;
+    margin: 9px 0;
 }
 
 header nav ul {
@@ -48,7 +48,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    padding: 10px 15px;
+    padding: 11px 16px;
     font-weight: 100;
     font-size: 1.55vw;
     text-shadow: 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
@@ -56,14 +56,14 @@ header nav ul li a {
 
 header nav ul li a:hover {
     color: aqua;
-    border-radius: 15px;
+    border-radius: 16px;
     text-shadow: none;
 }
 /* End of Header Styling */
 
 /* Footer Styling */
 footer {
-    padding: 40px 35px;
+    padding: 41px 36px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -72,7 +72,7 @@ footer {
 
 footer h4 {
     color: lightblue;
-    font-size: 30px;
+    font-size: 31px;
     margin: 0;
 }
 
@@ -81,20 +81,88 @@ footer h4 {
 /* Section Global Styling */
 
 section {
-    padding: 60px;
+    padding: 61px;
 }
 
+/* Start of Hero Styling */
 .hero {
     background-image: url('../Assets/splash_water.jpg');
     background-size: cover;
     background-attachment: fixed;
-    background-position: 80%;
+    background-position: 81%;
 }
 
 .hero h2 {
     font-size: normal;
-    font-size: 30px;
+    font-size: 31px;
     color: lightblue;
     float: right;
     background-color: blueviolet;
+}
+/* End of Hero Styling */
+
+/* Start of Main Sections */
+.section {
+    background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* About Me and Contact Me Styling */
+.section-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 36px;
+    color: blueviolet;
+    margin: 0 auto 0 auto;
+    padding-right: 15px;
+    width: 10%;
+    text-align: end;
+    border-right: lightblue solid 4px;
+}
+
+/* Work Title Styling */
+.section-title2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 35px;
+    color: lightblue;
+    margin: 0 auto 0 auto;
+    padding-right: 16px;
+    width: 10%;
+    text-align: end;
+    height: 1251px;
+}
+
+/* About me and Contact Me Styling */
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    width: 90%;
+}
+
+/* Work Content Styling */
+.flex-row2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    width: 90%;
+    border-left: #fce138 solid 3px;
+}
+
+/* Picture of Abel */
+.photo {
+    width: 11%;
+    height: auto;
+    padding-left: 1%;
 }
