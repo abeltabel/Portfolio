@@ -86,7 +86,7 @@ section {
 
 /* Start of Hero Styling */
 .hero {
-    background-image: url('../Assets/splash_water.jpg');
+    background-image: url('../Assets/geometric.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: 81%;
@@ -257,3 +257,39 @@ section {
 .calculator:hover {
     opacity: 75%;
 }
+/* Pastel puzzle image styling */
+.pastel-puzzles {
+    background-image: url('../Assets/pastel.jpg');
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-right: 0.5%;
+    border: aqua 5px solid;
+    position: relative; 
+}
+
+/* Pastel Puzzle Hover Styling */
+.pastel-puzzles:hover {
+    opacity: 75%;
+}
+
+/* Run Buddy Image Styling */
+.run-buddy {
+    background-image: url('../Assets/run_buddy.png');
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-right: 0.5%;
+    border: aqua 5px solid;
+    position: relative;
+}
+
+/* Run Buddy hover styling */
+.run-buddy:hover {
+    opacity: 75%;
+}
+
+/* End of Main section styling */
+
