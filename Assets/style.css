@@ -13,11 +13,10 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     position: sticky;
-    
     top: 0;
     background-size: cover;
     background-attachment: fixed;
-    background-position: 81%;
+    background-position: 80%;
     z-index: 9999;
 }
 
@@ -25,7 +24,7 @@ header {
 header h1 {
     font-weight: bold;
     margin: 0;
-    font-size: 37px;
+    font-size: 36px;
     color:blueviolet;
     text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
@@ -36,7 +35,7 @@ header a {
 }
 
 header nav {
-    margin: 9px 0;
+    margin: 7px 0;
 }
 
 header nav ul {
@@ -48,8 +47,8 @@ header nav ul {
 }
 
 header nav ul li a {
-    padding: 11px 16px;
-    font-weight: 100;
+    padding: 10px 15px;
+    font-weight: lighter;
     font-size: 1.55vw;
     text-shadow: 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
@@ -63,7 +62,7 @@ header nav ul li a:hover {
 
 /* Footer Styling */
 footer {
-    padding: 41px 36px;
+    padding: 40px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -72,7 +71,7 @@ footer {
 
 footer h4 {
     color: lightblue;
-    font-size: 31px;
+    font-size: 30px;
     margin: 0;
 }
 
@@ -81,7 +80,7 @@ footer h4 {
 /* Section Global Styling */
 
 section {
-    padding: 61px;
+    padding: 60px;
 }
 
 /* Start of Hero Styling */
@@ -89,12 +88,12 @@ section {
     background-image: url('../Assets/geometric.jpg');
     background-size: cover;
     background-attachment: fixed;
-    background-position: 81%;
+    background-position: 80%;
 }
 
 .hero h2 {
     font-size: normal;
-    font-size: 31px;
+    font-size: 30px;
     color: lightblue;
     float: right;
     background-color: blueviolet;
@@ -115,13 +114,13 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-    font-size: 36px;
+    font-size: 35px;
     color: blueviolet;
     margin: 0 auto 0 auto;
     padding-right: 15px;
     width: 10%;
     text-align: end;
-    border-right: lightblue solid 4px;
+    border-right: lightblue solid 3px;
 }
 
 /* Work Title Styling */
@@ -132,10 +131,10 @@ section {
     font-size: 35px;
     color: lightblue;
     margin: 0 auto 0 auto;
-    padding-right: 16px;
+    padding-right: 15px;
     width: 10%;
     text-align: end;
-    height: 1251px;
+    height: 1250px;
 }
 
 /* About me and Contact Me Styling */
@@ -180,7 +179,7 @@ section {
 
 /* Work Font Styling */
 .flex-row2 p {
-    display: inline-block;
+    display: inline-flex;
     text-align: start;
     background-color: aqua;
     opacity: 86%;
@@ -293,3 +292,53 @@ section {
 
 /* End of Main section styling */
 
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    header nav ul li a {
+        font-size: 20px;
+    }
+    
+    footer h2, footer div {
+        text-align: center;
+        width: 100%;
+    }
+
+    .section-title {
+        width: 20%;
+    }
+}
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
+}
+  
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    .section-title {
+      width: 95%;
+    }
+  
+    .section p {
+      width: 100%;
+    }
+}
