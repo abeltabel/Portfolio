@@ -21,6 +21,7 @@ header {
     z-index: 9999;
 }
 
+/* Header Styling */
 header h1 {
     font-weight: bold;
     margin: 0;
@@ -44,4 +45,56 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: 100;
+    font-size: 1.55vw;
+    text-shadow: 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+header nav ul li a:hover {
+    color: aqua;
+    border-radius: 15px;
+    text-shadow: none;
+}
+/* End of Header Styling */
+
+/* Footer Styling */
+footer {
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+footer h4 {
+    color: lightblue;
+    font-size: 30px;
+    margin: 0;
+}
+
+/* End of Footer Styling */
+
+/* Section Global Styling */
+
+section {
+    padding: 60px;
+}
+
+.hero {
+    background-image: url('../Assets/splash_water.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+.hero h2 {
+    font-size: normal;
+    font-size: 30px;
+    color: lightblue;
+    float: right;
+    background-color: blueviolet;
 }
